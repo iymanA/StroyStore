@@ -1,0 +1,143 @@
+/* Основной футер */
+.footer {
+  font-family: Arial, sans-serif;
+  background-color: #2c2c2c;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 100px;
+  margin-top: 80px;
+}
+
+/* Верхняя часть футера */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-logo img {
+  width: 180px;
+}
+
+.footer-contact p {
+  margin: 5px 0;
+  //styleName: Text M+;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin: 5px 0;
+  cursor: pointer;
+  //styleName: Text M+;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.footer-links li::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px; /* Расположение полоски под текстом */
+  width: 0;
+  height: 2px; /* Толщина полоски */
+  background-color: #007bff; /* Цвет полоски */
+  transform: translateX(-50%);
+  transition: all 1s ease;
+}
+
+.footer-links li:hover::after {
+  left: 50%;
+  width: 100%; /* Полоска растёт в обе стороны */
+  transform: translateX(-50%);
+}
+
+/* Нижняя часть футера */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  font-size: 0.9rem;
+  padding: 20px 0;
+}
+
+.footer__left {
+  font-size: 0.9rem;
+}
+
+.footer-payement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-payement img {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.footer-copyright {
+  font-size: 0.8rem;
+  text-align: right;
+  color: #aaa;
+}
+
+/* Адаптивность для маленьких экранов */
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-payement {
+    margin-bottom: 10px;
+  }
+
+  .footer-copyright {
+    text-align: center;
+  }
+}

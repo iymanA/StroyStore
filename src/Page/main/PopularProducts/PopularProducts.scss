@@ -1,0 +1,56 @@
+.PopularProducts__name {
+  width: 230px;
+}
+
+.PopularProducts__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  //background-position: center;
+  h4 {
+    //styleName: Text M+;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  p{
+    //styleName: Text XL+;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 10px;
+  }
+  button {
+    width: 200px;
+    height: 48px;
+    background-color: #FCEC41;
+    border: none;
+    margin-top: 5px;
+    //styleName: Text L;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.48px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    transition: 1s ease;
+  }
+  button:hover {
+    background: #5d6066;
+    color: white;
+    cursor: pointer;
+  }
+  img {
+    text-align: center;
+  }
+}

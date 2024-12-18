@@ -1,0 +1,47 @@
+section {
+  margin-top: 20px;
+}
+
+.PopularCategor__h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .PopularCategor__p {
+    display: flex;
+    //styleName: Text L;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}
+
+.PopularCategor__card {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+  //border: 2px solid seagreen;
+ p {
+   //styleName: Text L;
+   font-family: Manrope;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 24.48px;
+   text-align: center;
+   text-underline-position: from-font;
+   text-decoration-skip-ink: none;
+   margin-top: 16px;
+ }
+  .product {
+    transition: all 1s ease;
+  }
+  .product:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+    background-color: #FCEC41;
+  }
+}

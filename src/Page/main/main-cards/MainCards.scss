@@ -1,0 +1,88 @@
+.MainCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.MainCard {
+  display: flex;
+  align-items: center;
+  margin-left: -40px;
+  .MainCard__grade {
+    display: flex;
+    align-items: center;
+    //margin-top: 10px;
+    gap: 10px;
+  }
+  button {
+    width: 200px;
+    height: 48px;
+    background-color: #FCEC41;
+    border: none;
+    margin-top: 10px;
+    transition: 1s ease;
+    font-size: 15px;
+  }
+  button:hover {
+    background: #5d6066;
+    color: white;
+    cursor: pointer;
+  }
+  .MainCard__grade__p1 {
+    //styleName: Text XL+;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  p {
+    //styleName: Text M+;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 20px;
+  }
+
+  .MainCard__grade__p {
+    //styleName: Text M+;
+    //styleName: Text M+;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #5d6066;
+    text-decoration: line-through;
+  }
+  //img {
+  //  border: 2px solid seagreen;
+  //}
+}
+
+ .MainCard__SKIDKA {
+  position: relative;
+  left: 60px;
+   top: -90px;
+  z-index: 1;
+  border: 2px solid #FCEC41;
+}
+
+ h2 {
+   //styleName: H2;
+   font-family: Manrope;
+   font-size: 34px;
+   font-weight: 600;
+   line-height: 44.2px;
+   text-align: left;
+   text-underline-position: from-font;
+   text-decoration-skip-ink: none;
+
+ }

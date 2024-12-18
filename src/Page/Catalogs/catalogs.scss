@@ -1,0 +1,71 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  img{
+    height: 120px;
+    margin-top: 15px;
+  }
+  //justify-content: space-between;
+  margin-top: 50px;
+  .card_catalog {
+    width: 300px;
+    //border: 1px solid seagreen;
+    height: 380px;
+    margin-top: 20px;
+  }
+  h5 {
+    //styleName: Text L;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.48px;
+    text-align: left;
+    padding-left: 20px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .links {
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease; // Плавное движение текста
+    //styleName: Text M+;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 2px;
+
+    &::before {
+      content: "→"; // Стрелочка
+      position: absolute;
+      left: -20px; // Позиция стрелочки перед текстом
+      top: 50%; // Центрируем по вертикали
+      transform: translateY(-50%) translateX(-10px); // Смещение стрелки влево
+      opacity: 0; // Сначала невидима
+      transition: all 0.3s ease; // Плавная анимация
+      color: black; // Цвет стрелочки
+    }
+
+    &:hover {
+      transform: translateX(10px); // Двигаем текст вправо
+    }
+
+    &:hover::before {
+      opacity: 1; // Показываем стрелочку
+      transform: translateY(-50%) translateX(0); // Плавное перемещение стрелки
+    }
+  }
+
+}
+
+.catalog-banner-background {
+  background: url("../Catalogs/Catalogs-img/catalog-banner.png") center/cover no-repeat;
+  height: 250px;
+  width: 100%;
+  .content__catalog--baner {
+    padding-top: 60px;
+  }
+}

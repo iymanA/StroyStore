@@ -1,0 +1,105 @@
+.baclground-one {
+  background: url("../MainBanner/MainBanner-img/image 52.png");
+  height: 500px;
+  margin-top: 20px;
+  h1 {
+    //styleName: H1;
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 20px;
+  }
+  p {
+    //styleName: Text XL;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 20px;
+  }
+  button {
+    width: 147px;
+    height: 48px;
+    background: #FCEC41;
+    border: none;
+    margin-top: 90px;
+    font-size: 14px;
+    transition:  1s ease;
+  }
+  button:hover {
+    background: #5d6066;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 55px;
+  height: 52px;
+  border: 1px solid black;
+  background: white;
+  color: black;
+  transition: all 3s ease;
+}
+
+.swiper-button-prev {
+  position: relative;
+  left: 1000px; /* Расположение стрелки влево */
+}
+
+.swiper-button-next {
+  position: relative;
+  right: 10px; /* Расположение стрелки вправо */
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Цвет фона при наведении */
+}
+
+.background-two {
+  background: url("MainBanner-img/image 51.png");
+  h1 {
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 20px;
+  }
+  p {
+    //styleName: Text XL;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 20px;
+  }
+  button {
+    width: 147px;
+    height: 48px;
+    background: #FCEC41;
+    border: none;
+    margin-top: 90px;
+    font-size: 14px;
+    transition: all 3s ease;
+  }
+  button:hover {
+    background: #2F323A;
+    color: white;
+    cursor: pointer;
+  }
+}

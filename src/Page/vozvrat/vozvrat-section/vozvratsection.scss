@@ -1,0 +1,35 @@
+
+
+.vozvrat-zagalovok {
+  display: flex;
+  column-gap: 50px;
+  gap: 80px;
+  h3 {
+    width:402px;
+    height: 232px;
+    //border: 1px solid seagreen;
+    //styleName: H2;
+    font-family: Manrope;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 44.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 10px;
+  }
+  .vozvrat-opisanie3 {
+    margin-left: 15px;
+  }
+  p {
+    //styleName: Text M+;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 10px;
+  }
+}

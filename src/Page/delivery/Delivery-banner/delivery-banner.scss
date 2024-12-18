@@ -1,0 +1,21 @@
+.delivery-banner {
+  background: url("../delivery-img/delivery-banner.png")center ;
+  height: 312px;
+  .content {
+    margin-left: 10px;
+  }
+  h3 {
+    //styleName: H1;
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 5px;
+  }
+  p{
+    margin-top: 5px;
+  }
+}

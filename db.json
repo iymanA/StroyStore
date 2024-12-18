@@ -1,0 +1,60 @@
+{
+  "Vanna": [
+    {
+      "id": 1,
+      "image": "https://cs.p-static.ru/image/7650140/original-480x480-fit.jpg",
+      "name": "Ванна чугунная Lavelly Aura 170х70 см без ножек",
+      "price": "35 120 ₽",
+      "count": 1,
+      "categor": "dorogie"
+    },
+    {
+      "id": 2,
+      "image": "https://cs.p-static.ru/image/49676633/original-480x480-fit.jpg",
+      "name": "Ванна чугунная Lavelly Voda 170х75 см без ножек",
+      "price": "36 500 ₽",
+      "count": 1,
+      "categor": "dorogie"
+    },
+    {
+      "id": 3,
+      "image": "https://cs.p-static.ru/image/7649986/original-480x480-fit.jpg",
+      "name": "Ванна чугунная Lavelly Voda 150х70 см без ножек",
+      "price": "32 500 ₽",
+      "count": 1,
+      "categor": "dorogie"
+    },
+    {
+      "id": 4,
+      "image": "https://cs.p-static.ru/image/5327665/original-480x480-fit.jpg",
+      "name": "Ванна стальная Antika 150х70 см с ножками (514048)",
+      "price": "7 920 ₽",
+      "count": 1,
+      "categor": "deshevo"
+    },
+    {
+      "id": 5,
+      "image": "https://cs.p-static.ru/image/5327665/original-480x480-fit.jpg",
+      "name": "Ванна чугунная Lavelly Aura 160х70 см без ножек",
+      "price": "34 500 ₽",
+      "count": 1,
+      "categor": "dorogie"
+    },
+    {
+      "id": 6,
+      "image": "https://cs.p-static.ru/image/7650140/original-480x480-fit.jpg",
+      "name": "Ванна акриловая Cersanit Lorena 170х70 см без ножек (WP-LORENA*170-W/63323)",
+      "price": "17 990 ₽",
+      "count": 1,
+      "categor": "popular"
+    },
+    {
+      "id": 7,
+      "name": "Ванна чугунная Lavelly Aura 150х70 см без ножек",
+      "image": "https://cs.p-static.ru/image/7649986/original-480x480-fit.jpg",
+      "price": "29 450 ₽",
+      "count": 1,
+      "categor": "dorogie"
+    }
+  ]
+}

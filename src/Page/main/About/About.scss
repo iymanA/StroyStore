@@ -1,0 +1,37 @@
+.backgrouund {
+  position: relative;
+  z-index: -1;
+  background: url("../About/About-img/back-about.png");
+  width: 1300px;
+  height: 456px;
+ margin-left: -100px;
+}
+
+.content {
+  margin-left: 220px;
+  padding-top: 80px;
+  h3 {
+    //styleName: H2;
+    font-family: Manrope;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 44.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: -15px;
+  }
+  p{
+    //styleName: Text M;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .content__p2 {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,125 @@
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .header__logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  h3 {
+    //styleName: Text S+;
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.75px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #5D6066;
+  }
+  .links {
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  /* Псевдоэлемент для линии */
+  .links::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px; /* Расположение полоски под текстом */
+    width: 0;
+    height: 2px; /* Толщина полоски */
+    background-color: #007bff; /* Цвет полоски */
+    transform: translateX(-50%);
+    transition: all 1s ease;
+  }
+
+  .links:hover::after {
+    left: 50%;
+    width: 100%; /* Полоска растёт в обе стороны */
+    transform: translateX(-50%);
+  }
+  ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+  }
+  li {
+    color: #5d6066;
+  }
+}
+
+.header__wrapper__center {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.catalog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  width: 144px;
+  height: 48px;
+  background-color: #FCEC41;
+  padding-right:20px;
+  font-size: 18px;
+  .catalos {
+    text-decoration: none;
+    //styleName: Text L;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #171B24;
+  }
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  input {
+    width: 444px;
+    height: 48px;
+    border: none;
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  .search-icon{
+    font-size: 25px;
+   position: relative;
+    left: -40px;
+  }
+}
+
+.header_wrapper__cards {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+
+}
+  .header__wrapper__card__p {
+    //styleName: Text S+;
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.75px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .header__wrapper {
+    margin-top: 10px;
+  }

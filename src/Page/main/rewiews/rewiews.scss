@@ -1,0 +1,54 @@
+.swiper {
+   margin-top: 25px;
+}
+
+.Rewiws__card {
+  width: 330px;
+  height: 320px;
+  //border: 1px solid seagreen;
+  .Rewiews__card__name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .names {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  h5 {
+    //styleName: Text L+;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+}
+
+.Rewiews__text__p1 {
+  //styleName: Text M;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 12px;
+}
+.Rewiews__text__p2 {
+  //styleName: Text S+;
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21.75px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #8B8D92;
+  margin-top: 5px;
+}
