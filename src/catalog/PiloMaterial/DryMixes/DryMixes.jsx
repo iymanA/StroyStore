@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import Checkbox from '@mui/material/Checkbox';
-import { pink } from '@mui/material/colors';
 import './DryMixes.scss';
 import axios from "axios";
 
 const DryMixes = () => {
+    const [zagalovok,setZagalovok] = useState("")
     const [data, setData] = useState([]); // Создаём состояние для данных
     const { categoryName } = useParams(); // Получаем categoryName из URL
 
@@ -26,7 +25,7 @@ const DryMixes = () => {
                     <div className="section__left">
                         {/* Фильтр по цене */}
                         <div className="filter__block">
-                            <p>Цена</p>
+                            <p className="filter__block__p">Цена</p>
                             <div className="filter__inputs">
                                 <input type="text" placeholder="1 000" />
                                 <input type="text" placeholder="100 000" />
@@ -37,8 +36,47 @@ const DryMixes = () => {
                         <div className="filter__block">
                             <h4>Бренд</h4>
                             <form>
-                                <input type="text" placeholder="Поиск" />
+                                <input type="text" placeholder="Поиск"/>
                             </form>
+                            <div className="filter__label">
+                                <label htmlFor="checkbox1">
+                                    <input
+                                        id="checkbox1" // Уникальный id для первого чекбокса
+                                        type="checkbox"
+                                    />
+                                    braer
+                                </label>
+                                <label htmlFor="checkbox2">
+                                    <input
+                                        id="checkbox2" // Уникальный id для второго чекбокса
+                                        type="checkbox"
+                                    />
+                                    braer
+                                </label>
+                                <label htmlFor="checkbox3">
+                                    <input
+                                        id="checkbox3" // Уникальный id для второго чекбокса
+                                        type="checkbox"
+                                    />
+                                    braer
+                                </label>
+                                <label htmlFor="checkbox4">
+                                    <input
+                                        id="checkbox2" // Уникальный id для второго чекбокса
+                                        type="checkbox"
+                                    />
+                                    braer
+                                </label>
+                                <label htmlFor="checkbox5">
+                                    <input
+                                        id="checkbox5" // Уникальный id для второго чекбокса
+                                        type="checkbox"
+                                    />
+                                    braer
+                                </label>
+
+                            </div>
+
                         </div>
 
                         {/* Фильтр по поставщику */}
@@ -57,7 +95,8 @@ const DryMixes = () => {
                                 <div key={el.id} className="section__right__Card">
                                     <img src={el.image} alt=""/>
                                     <h4>{el.name}</h4>
-                                    <p>{el.price} ₽</p>
+                                    <p className="section__right__Card__price">{el.price} ₽</p>
+                                    <button>В корзину</button>
                                 </div>
                             ))}
                         </div>

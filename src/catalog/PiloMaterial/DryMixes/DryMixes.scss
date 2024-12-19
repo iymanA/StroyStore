@@ -1,6 +1,6 @@
 .section__main {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 100px;
   .brandss{
     display: flex;
@@ -23,12 +23,81 @@
 .section__right__cards{
   display: flex;
   flex-wrap: wrap;
+  gap: 50px;
+  button {
+    width: 100%;
+    height: 48px;
+    background: #FCEC41;
+    border: none;
+    //styleName: Text L;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.48px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 1s ease;
+  }
+  button:hover {
+    background: #5d6066;
+    color: white;
+  }
   h4 {
     width: 300px;
+    //styleName: Text M+;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
   }
 }
 .section__right__Card img {
-  width: 200px;
-  height: 200px;
-  border: 1px solid seagreen;
+  width: 300px;
+  height: 300px;
+  border: 2px solid darkgreen;
+  border-radius: 35px;
+}
+.section__right__Card__price {
+  //styleName: Text XL+;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 10px;
+}
+
+.filter__inputs {
+  display: flex;
+  gap: 5px;
+  input {
+    width: 80px;
+    height: 28px;
+    border: none;
+    padding-left: 20px;
+  }
+}
+
+.filter__block__p {
+  //styleName: Text L+;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.48px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+label {
+  display: block;
 }
